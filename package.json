@@ -1,0 +1,25 @@
+{
+  "name": "splate",
+  "version": "0.0.0",
+  "description": "The simplest possible streaming JavaScript template engine that could possibly work.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alanshaw/splate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/splate/issues"
+  },
+  "dependencies": {
+    "split": "~0.2.10",
+    "through": "~2.3.4",
+    "duplexer": "~0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "keywords": ["stream", "streaming", "template", "engine"]    
+}
