@@ -1,4 +1,4 @@
-splate
+splate [![Dependency Status](https://david-dm.org/alanshaw/splate.png)](https://david-dm.org/alanshaw/splate)
 ===
 The simplest possible streaming JavaScript template engine that could possibly work. JavaScript in your HTML. Oh god it's ASP all over again.
 
