@@ -28,7 +28,7 @@ for (var i = 0; i < 10; i++) {
 Compile the template with splate:
 
 ```javascript
-var splate = require("./index")
+var splate = require("splate")
   , fs = require("fs")
 
 fs.createReadStream("template.html", {encoding: "utf8"})
