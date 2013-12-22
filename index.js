@@ -7,7 +7,7 @@ module.exports = function () {
     , inJs = false
     , first = true
 
-  var streamplate = through(function (data) {
+  var splate = through(function (data) {
     if (first) {
       this.queue("function(data){var str=\"\";")
       first = false
@@ -32,7 +32,7 @@ module.exports = function () {
     this.queue(null)
   })
 
-  splitter.pipe(streamplate)
+  splitter.pipe(splate)
 
-  return duplex(splitter, streamplate)
+  return duplex(splitter, splate)
 }
