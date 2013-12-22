@@ -15,9 +15,9 @@ module.exports = function () {
     
     if (inJs) {
       if (data[0] == "=") {
-				this.queue("str+=" + data.slice(1) + ";")
+        this.queue("str+=" + data.slice(1) + ";")
       } else {
-				this.queue(data + ";")
+        this.queue(data + ";")
       }
     } else {
       this.queue("str+=" + JSON.stringify(data) + ";")
